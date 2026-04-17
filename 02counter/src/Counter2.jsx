@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-export default function App() {
+export default function CounterValue() {
   const [value, setValue] = useState(1);
   // const [multipliedValue, setMultipliedValue] = useState(1);
   //here it wasn't necessary to use another useState for multiplication . when a simple js variable can do the same thing .so what's the use useState here.

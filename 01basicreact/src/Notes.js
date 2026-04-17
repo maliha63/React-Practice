@@ -55,7 +55,7 @@
 
 //server-side component:
 
-//whatever components we have inside app directory is considered  as server-side component in next js and we can't add interactivity in server-side component like adding/attaching event listeners or hooks ,if we did it will throw by saying us to convert it from server-side component into client side component .to convert it use just have to add "use client" text on top level of the component like we add in js for strict mode.
+//whatever components we have inside app directory is considered  as server-side component in next js and we can't add interactivity in server-side component like adding/attaching event listeners or hooks ,if we did it will throw error by saying us to convert it from server-side component into client side component .to convert it use just have to add "use client" text on top level of the component like we add in js for strict mode.
 
 //If any of your component is server-side component then react will not ship it's js on the frontend because it's rendering will happen on the backend/server and the data(html/css) we got from backend will be streamed on the frontend.because of this our js bundle size will be decreased and our application's  interactivity and speed will be increased.overall it prevents the unnecessary loading of js.That's why initial page load is fast in server-side rendering.
 
